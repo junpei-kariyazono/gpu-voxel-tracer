@@ -124,6 +124,6 @@ If you use this software in your research, please cite it as:
   title = {GPU-Accelerated 3D Voxel Traversal (Amanatides & Woo) in Python},
   year = {2026},
   publisher = {Zenodo},
-  url = {https://doi.org/10.5281/zenodo.XXXXXX}
+  url = {https://doi.org/10.5281/zenodo.18095562}
 }
 ```
