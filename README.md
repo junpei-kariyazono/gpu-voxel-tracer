@@ -58,8 +58,7 @@ git clone https://github.com/your-username/gpu-voxel-tracer.git
 ```
 
 ## Usage
-For detailed usage and visualization, please refer to the Jupyter Notebook.
-### 1. Initialize tracer
+For detailed usage and visualization, please refer to the [Jupyter Notebook](/tutorial.ipynb).
 First, import the library and initialize the Tracer with your 3D space boundaries and voxel resolution.
 
 ```python
