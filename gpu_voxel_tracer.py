@@ -1,6 +1,26 @@
 """
-GPU-Accelerated 3D Voxel Traversal (Amanatides & Woo) in Python
+GPU-Accelerated 3D Voxel Tracer
+===============================
+
+A GPU-based implementation of the Amanatides & Woo ray traversal algorithm,
+optimized for massive parallel ray tracing in 3D voxel grids.
+
+This module is designed to be used as a standalone single-file library.
+Simply copy this script into your project and import it.
+
+Information
+-----------
+Author   : Junpei Kariyazono
+License  : MIT License
+Version  : 1.0.0
+DOI      : 10.5281/zenodo.XXXXXXX
+github  : https://github.com/junpei-kariyazono/gpu-voxel-tracer
+
+Citation
+--------
+If you use this software in your research, please cite it using the DOI above.
 """
+
 import numpy as np
 import math
 from numba import cuda
