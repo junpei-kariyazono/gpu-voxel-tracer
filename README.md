@@ -25,13 +25,13 @@ Written in pure **Python** using **Numba (CUDA)**, this library allows for extre
 ### Tested Environment  
 This library has been verified to work with the following configuration:
 
-| Component | Version    |
-| :--- |:-----------|
-| **OS** | Windows 11 |
-| **Python** | 3.12       |
+| Component        | Version    |
+|:-----------------|:-----------|
+| **OS**           | Windows 11 |
+| **Python**       | 3.12       |
 | **CUDA Toolkit** | 12.9.86    |
-| **Numba** | 0.63.1     |
-| **Numpy** | 2.3.5      |
+| **Numba**        | 0.63.1     |
+| **Numpy**        | 2.3.5      |
 
 ## Installation
 
@@ -97,11 +97,11 @@ The `run()` method returns a dictionary containing three 3D numpy arrays with th
 * N_x, N_y, N_z: Number of voxels along the X, Y, and Z axes respectively.
 * Indexing: For example, `beam_counts[i, j, k]` corresponds to the voxel at grid index `(i, j, k)`.
 
-| Key | data type    | Description                                                                                                                          |                                                                                                            
-| :--- |:-------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| **`beam_counts`** | `np.int32`   | Number of rays passing through each voxel.                                                                                           |
-| **`point_counts`** | `np.int32`   | Number of rays terminating (hitting a point) within each voxel. |
-| **`path_lengths`** | `np.float64`  | Total distance traveled by rays inside each voxel.|
+| Key                | data type     | Description                                                     |                                                                                                            
+|:-------------------|:--------------|:----------------------------------------------------------------|
+| **`beam_counts`**  | `np.int32`    | Number of rays passing through each voxel.                      |
+| **`point_counts`** | `np.int32`    | Number of rays terminating (hitting a point) within each voxel. |
+| **`path_lengths`** | `np.float64`  | Total distance traveled by rays inside each voxel.              |
 
 ## Algorithm
 
