@@ -59,6 +59,8 @@ git clone https://github.com/your-username/gpu-voxel-tracer.git
 
 ## Usage
 For detailed usage and visualization, please refer to the [Jupyter Notebook](/tutorial.ipynb).
+### 1. Initialize tracer
+
 First, import the library and initialize the Tracer with your 3D space boundaries and voxel resolution.
 
 ```python
@@ -120,10 +122,10 @@ If you use this software in your research, please cite it as:
 
 ```bibtex
 @software{gpu_voxel_tracer,
-  author = {Your Name},
+  author = {Junpei Kariyazono},
   title = {GPU-Accelerated 3D Voxel Traversal (Amanatides & Woo) in Python},
   year = {2026},
   publisher = {Zenodo},
-  url = {https://doi.org/10.5281/zenodo.18095562}
+  url = {https://doi.org/10.5281/zenodo.xxxxxx}
 }
 ```
