@@ -1,4 +1,4 @@
-# gpu-voxel-tracer
+# GPU-Accelerated 3D Voxel Traversal (Amanatides & Woo) in Python
 [![DOI](https://zenodo.org/badge/1125218273.svg)](https://doi.org/10.5281/zenodo.18112351)  
 
 A high-performance, **GPU-accelerated** implementation of the **Amanatides & Woo 3D Voxel Traversal Algorithm**. 
