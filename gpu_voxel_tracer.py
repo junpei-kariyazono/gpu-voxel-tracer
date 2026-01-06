@@ -10,10 +10,10 @@ Simply copy this script into your project and import it.
 
 Information
 -----------
-Author   : Junpei Kariyazono
+Author   : Junpei Kariyazono, Hideki Kobayashi, and Tomo'omi Kumagai
 License  : MIT License
-Version  : 1.0.0
-DOI      : 10.5281/zenodo.XXXXXXX
+Version  : 0.1.1
+DOI      : 10.5281/zenodo.18112352
 github  : https://github.com/junpei-kariyazono/gpu-voxel-tracer
 
 Citation
